@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeClass;
 import com.demo.test.utils.LogConfiguration;
 import com.demo.test.utils.SeleniumUtil;
 public class BaseParpare {
-	
 	//输出本页面日志 初始化
 	static Logger logger = Logger.getLogger(BaseParpare.class.getName());
 	protected SeleniumUtil seleniumUtil = null;
